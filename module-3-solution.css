@@ -1,0 +1,51 @@
+/* global style for all page of website */
+body{
+	font-size: 16px;
+	color:#fff;/* white*/
+	background-color: #61122f;
+	font-family: oxygen sans-serif;
+}
+/*** Header **/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;	
+}
+
+h2{
+	font-size: 36px;
+	text-align: center;
+}
+#m1{
+	border: solid black;
+	background-color: gray;
+	margin-bottom: 10px;
+	
+}
+.row{
+	margin-left: auto;;
+	margin-right: auto;
+}
+@media (min-width: 768px)
+{
+	.navbar-toggle{
+		display: none;
+	}
+
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list li{
+	color: #951C49;
+	text-align: center;
+	font-size: 1.8em
+}
+ 
+ #nav-list li:hover{
+ 	background: gray;
+ 	color: white;
+ }
+ .row{
+ 	width: 100%;
+ }
